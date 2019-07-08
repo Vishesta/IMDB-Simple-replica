@@ -139,7 +139,7 @@ $row = mysqli_fetch_assoc($sql);
 			</table>
 			
 			
-			<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit Data</a>
+			<a href="editactor.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit Data</a>
 			
 		</div>
 	</div>
